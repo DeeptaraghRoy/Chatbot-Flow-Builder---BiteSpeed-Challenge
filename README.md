@@ -1,4 +1,5 @@
 # Chatbot Flow Builder
+
 Live Demo Link: [https://chatbotflowbuilder-bitespeed-task.netlify.app/](https://chatbotflowbuilder-bitespeed-task.netlify.app/)
 
 ![](https://github.com/your-username/your-repo-name/blob/main/public/demo.gif)
@@ -8,28 +9,28 @@ This project is a simple React application built with [React Flow](https://react
 ## Features
 
 1. **Text Node**
-    - Supports only one type of message (Text Message).
-    - Multiple Text Nodes can exist in one flow.
-    - Nodes are added to the flow by dragging and dropping from the Nodes Panel.
+   - Supports only one type of message (Text Message).
+   - Multiple Text Nodes can exist in one flow.
+   - Nodes are added to the flow by dragging and dropping from the Nodes Panel.
 2. **Nodes Panel**
-    - Houses all types of Nodes that the Flow Builder supports.
-    - Currently includes only the Message Node, but designed to be extensible for future node types.
+   - Houses all types of Nodes that the Flow Builder supports.
+   - Currently includes only the Message Node, but designed to be extensible for future node types.
 3. **Edge**
-    - Connects two Nodes together.
+   - Connects two Nodes together.
 4. **Source Handle**
-    - The source of a connecting edge.
-    - Can only have one edge originating from a source handle.
+   - The source of a connecting edge.
+   - Can only have one edge originating from a source handle.
 5. **Target Handle**
-    - The target of a connecting edge.
-    - Can have more than one edge connecting to a target handle.
+   - The target of a connecting edge.
+   - Can have more than one edge connecting to a target handle.
 6. **Settings Panel**
-    - Replaces the Nodes Panel when a Node is selected.
-    - Includes a text field to edit the text of the selected Text Node.
+   - Replaces the Nodes Panel when a Node is selected.
+   - Includes a text field to edit the text of the selected Text Node.
 7. **Save Button**
-    - Button to save the flow.
-    - Displays an error if there are multiple Nodes and any Node has an empty target handle.
+   - Button to save the flow.
+   - Displays an error if there are multiple Nodes and any Node has an empty target handle.
 8. **Restore Button**
-    - Button to restore the flow.
+   - Button to restore the flow.
 
 ## Setup and Installation
 
