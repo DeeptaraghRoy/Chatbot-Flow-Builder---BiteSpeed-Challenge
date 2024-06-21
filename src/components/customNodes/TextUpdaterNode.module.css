@@ -1,0 +1,60 @@
+.textUpdaterNode {
+  height: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.171);
+
+  border-radius: 5px;
+  background-color: white;
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/* This is used to visually highlight selected elements */
+.selection {
+  border: 2px solid transparent;
+  border-color: #0160c5;
+}
+
+.nodeContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.nodeHeader {
+  display: flex;
+  max-height: max-content;
+  padding: 2px 8px;
+  text-align: left;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: #c6eaf8; /* Teal background */
+  justify-content: space-between;
+}
+
+.headerTitle {
+  display: flex;
+}
+
+.nodeBody {
+  padding: 8px 12px;
+}
+
+.nodeLabel {
+  font-size: 12px;
+  font-weight: normal;
+  color: black;
+}
+
+.fav {
+  margin-top: 2px;
+  margin-right: 5px;
+  height: 10px;
+  width: 10px;
+}
+
+.whatsapp {
+  height: 15px;
+  width: 15px;
+  margin-left: 50px;
+}

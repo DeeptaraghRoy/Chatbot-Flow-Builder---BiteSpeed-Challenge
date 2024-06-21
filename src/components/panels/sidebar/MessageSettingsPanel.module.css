@@ -1,0 +1,30 @@
+.msgHeader {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #eee;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.msgHeader img{
+    height: 15.5px;
+    width: 15.5px;
+    position: relative;
+    right: 75px;
+}
+
+.msgContainer {
+    border: 1px solid #eee;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.msgContainer textarea{
+    border-radius: 5px;
+    padding: 6px;
+}
