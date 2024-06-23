@@ -2,7 +2,7 @@
 
 Live Demo Link: [https://chatbotflowbuilder-bitespeed-task.netlify.app/](https://chatbotflowbuilder-bitespeed-task.netlify.app/)
 
-![](https://github.com/your-username/your-repo-name/blob/main/public/demo.gif)
+https://github.com/DeeptaraghRoy/Chatbot-Flow-Builder---BiteSpeed-Challenge/assets/105920603/e20eca5a-adbc-49c3-a04e-d299ee211793
 
 This project is a simple React application built with [React Flow](https://reactflow.dev/). It demonstrates the implementation of a chatbot flow builder with drag-and-drop nodes, allowing connections to define the order of message execution.
 
