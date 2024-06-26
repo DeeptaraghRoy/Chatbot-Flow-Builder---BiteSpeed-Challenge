@@ -13,7 +13,7 @@
   margin-right: auto;
 }
 
-/* The CSS code you provided is defining styles for two different variants: `.success` and `.error`. */
+/* This is defining styles for two different variants of alerts: `.success` and `.error`. */
 .success {
   background-color: #5cb85c;
   color: white;
